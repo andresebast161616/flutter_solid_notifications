@@ -1,0 +1,1 @@
+# flutter_solid_notifications
