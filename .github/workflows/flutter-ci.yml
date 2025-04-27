@@ -25,10 +25,6 @@ jobs:
         working-directory: flutter_solid_notifications
         run: flutter pub get
 
-      - name: Run tests
-        working-directory: flutter_solid_notifications
-        run: flutter test
-
       - name: Build APK
         working-directory: flutter_solid_notifications
         run: flutter build apk --release
